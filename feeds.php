@@ -12,7 +12,7 @@ echo "\n"."Getting feed from: ". $url." \n";
         CURLOPT_RETURNTRANSFER => 1,
         CURLOPT_USERAGENT => 'Mozilla/5.0 (Linux; Android 11; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/83.0.4103.101 Mobile Safari/537.36 SearchCraft/2.8.2 (Baidu; P1 10) UUCBrowser/12.0.4.985 ALiSearchApp/2.4 AliApp(TB/9.5.6) BingWeb/6.9.6 WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64  WENKU-NA_1080_1920_6.5.4_9_WENKU-NA com.zhihu.android.lite/Futureve/1.7.1 ; T7/11.25 SP-engine/0.0.0 flyflow/4.21.5.30 HeyTapBrowser/40.7.25.1
 ',
-        CURLOPT_REFERER => 'https://baidu.com/',
+        CURLOPT_REFERER => 'https://www.baidu.com/',
         CURLOPT_TIMEOUT_MS => 7000,
         CURLOPT_ENCODING => 'gzip',
         CURLOPT_FOLLOWLOCATION => true
